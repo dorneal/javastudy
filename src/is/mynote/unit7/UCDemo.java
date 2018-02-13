@@ -12,7 +12,7 @@ import java.util.Date;
 public class UCDemo {
     public static void main(String[] args) throws IOException {
         int c;
-        URL hp = new URL("https://www.784n.com");
+        URL hp = new URL("0000");
         URLConnection conn = hp.openConnection();
         conn.setRequestProperty("User-Agent"
                 , "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36");
