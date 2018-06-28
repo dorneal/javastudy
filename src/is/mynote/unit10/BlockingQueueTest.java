@@ -52,7 +52,6 @@ public class BlockingQueueTest {
                 };
                 new Thread(searcher).start();
             }
-
         }
     }
 
@@ -63,7 +62,7 @@ public class BlockingQueueTest {
      */
     private static void enumerate(File directory) throws InterruptedException {
         File[] files = directory.listFiles();
-        assert files != null;
+        assert files != null : "文件夹不能为空！！！";
         for (File file : files) {
             if (file.isDirectory()) {
                 enumerate(file);

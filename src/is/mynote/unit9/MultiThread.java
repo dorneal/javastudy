@@ -13,7 +13,6 @@ public class MultiThread {
         }
         new Thread(new NewThread2()).start();
     }
-
 }
 
 class NewThread implements Runnable {
